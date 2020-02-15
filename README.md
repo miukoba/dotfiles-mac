@@ -1,4 +1,4 @@
-git clone git@github.com:miukoba/dotfiles.git
+git clone git@github.com:miukoba/dotfiles-mac.git
 
 ln -s ~/dotfiles-mac/gitconfig ~/.gitconfig
 
