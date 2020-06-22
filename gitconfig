@@ -15,3 +15,7 @@
         co = checkout
 	lg = log --graph --date=short --pretty=format:'%Cgreen%h %cd %Cblue%cn %Creset%s'
 	lga = log --graph --all --color --pretty='%x09%h %cn%x09%s %Cred%d%Creset'
+[merge]
+        ff = false
+[pull]
+        ff = only
