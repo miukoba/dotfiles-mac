@@ -17,3 +17,6 @@
         ff = false
 [pull]
         ff = only
+
+[commit]
+        template = /Users/miu.kobayashi/.git_commit_template
