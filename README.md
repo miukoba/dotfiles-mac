@@ -16,7 +16,3 @@ alias ggpush='git push origin "$(git-branch-current)"'
 # history
 HISTSIZE=1000000
 SAVEHIST=1000000
-
-# mcfly
-eval "$(mcfly init zsh)"
-```
