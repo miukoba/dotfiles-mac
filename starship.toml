@@ -1,0 +1,26 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+format = '$time$all'
+
+# Inserts a blank line between shell prompts
+add_newline = true
+
+[character]
+success_symbol = '[\$](bold green)'
+error_symbol = '[\$](bold red)'
+
+[directory]
+truncation_length = 0
+
+[git_metrics]
+disabled=false
+format = '[+$added]($added_style)/[-$deleted]($deleted_style) '
+
+[golang]
+symbol = ' '
+
+[time]
+format = '\[[$time]($style)\] '
+disabled = false
+time_format = '%T'
+
