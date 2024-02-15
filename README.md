@@ -4,6 +4,8 @@ ln -s ~/dotfiles-mac/gitconfig ~/.gitconfig
 
 ln -s ~/dotfiles-mac/gitignore ~/.gitignore
 
+ln -s ~/dotfiles-mac/starship.toml ~/.config/starship.toml
+
 vi ~/.zshrc
 
 ```
